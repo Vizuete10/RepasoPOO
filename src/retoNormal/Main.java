@@ -63,7 +63,7 @@ public class Main {
                     lista.listarTodos();
                     break;
 
-                case 3: // ── Buscar por matrícula ──────────────────────────────
+                case 3: // ── Buscar pro matrícula ──────────────────────────────
                     System.out.print("Matrícula a buscar: ");
                     String buscar = sc.nextLine().trim().toUpperCase();
                     Vehiculo encontrado = lista.buscarPorMatricula(buscar);
